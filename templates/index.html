@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>File Integrity Monitoring</title>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<script>
+		$(document).ready(function() {
+		$("#visualize-button").click(function() {
+			$.ajax({
+			url: "/visualize",
+			type: "GET",
+			success: function(data) {
+				// Update the HTML content with the visualized data
+				$("#visualize-content").html(data);
+			},
+			error: function(xhr, status, error) {
+				console.log("Error: " + error);
+			}
+			});
+		});
+		});
+</script>
+
+	</script>
+	<style>
+	body{
+	    background: linear-gradient(to bottom, #4e7f8c, #58a07c,#ac925c );
+	}
+
+	h1{
+	    text-align: center;
+	    font-family: 'Open Sans', sans-serif;
+	    font-size: 26px;
+	    color: #fff; 
+	    text-shadow: 0 0 10px rgba(0,0,0,0.3); 
+	    letter-spacing:1px;  
+	}
+
+	table {
+	    width: 80% !important;
+	    height: 400px; /* set the fixed height here */
+	    margin: auto !important;
+	    table-layout: fixed;
+	    border-collapse: collapse;
+	    justify-content: center;
+	  }
+	  
+	  th, td {
+	    padding: 12px;
+	    text-align: left;
+	    border-bottom: 1px solid #ddd;
+	  }
+	  
+	  th {
+	    background-color: #4CAF50;
+	    color: white;
+	  }
+	  
+	  tr:nth-child(even) {
+	    background-color: #f2f2f2;
+	  }
+	  
+	  tr:hover {
+	    background-color: #ddd;
+	  }
+	  
+	table{
+	  margin-left:240px !important;
+	  height:400px;
+	  width:80% !important;
+	  overflow-y: scroll !important;
+	  display:block;
+	  }
+
+	  .info {
+	    animation: blink .8s linear infinite;
+	    color: rgb(57, 253, 9);
+	  }
+	  
+	  .warning {
+	    animation: blink .8s linear infinite;
+	    color: rgb(251, 255, 0);
+	  }
+	  
+	  .critical {
+	    animation: blink .8s linear infinite;
+	    color: red;
+	  }
+	  
+	  @keyframes blink {
+	    50% {
+	      opacity: 0;
+	    }
+	  }
+	  .button1{
+		background-color: #4CAF50;
+		color: #ddd;
+		font-weight: 100;
+		border: none;
+		cursor: pointer;
+		margin-top: 30px;
+		margin-left: 600px;
+		height: 30px;
+	  }
+	  .button1:hover{
+		background-color: #258328;
+	  }
+	</style>
+</head>
+<body>
+	<h1>Real Time File Integrity Monitoring</h1>
+  <div class="tabel">
+    <table id="log-table">
+      <thead>
+      <tr>
+        <th>SN</th>
+        <th>Timestamp</th>
+        <th>User Name</th>
+        <th>File Name</th>
+        <th>Log Level</th>
+        <th>Log Message</th>
+      </tr>
+      </thead>
+      <tbody>
+        {% set counter = 1%}
+        {% for log in log_contents %}
+        <tr>
+        <td>{{counter}}</td>
+        <td>{{ log.timestamp }}</td>
+        <td>{{ log.device_name }}</td>
+        <td>{{log.file_name}}</td>
+  
+        {% if log.log_level == "INFO" %}
+        <td class="info">{{ log.log_level }}</td>
+  
+        {% elif log.log_level == "WARNING" %}
+        <td class="warning">{{ log.log_level }}</td>
+  
+        {% elif log.log_level == "CRITICAL" %}
+        <td class="critical">{{ log.log_level }}</td>
+  
+        {% else %}
+        <td>{{ log.log_level }}</td>
+  
+        {% endif %}
+  
+        <td>{{ log.log_message }}</td>
+      </tr>
+      {% set counter = counter + 1 %}
+      {% endfor %}
+  
+      </tbody>
+    </table>
+  </div>
+
+	<div class="container">
+		<button class="button1" onClick="window.location.reload();">Update Logs</button>
+		<button class="button1" id="visualize-button">Visualize Data</button>
+	</div>
+    
+
+</body>
+</html>

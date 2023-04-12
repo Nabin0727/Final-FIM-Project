@@ -1,0 +1,7 @@
+2023-04-10 07:23:29,569 - ASUS - MainFIM.py - CRITICAL - File deleted! C:\Users\ASUS\Desktop\Project\Final_FIM\Files\automaticUpdate_check.txt
+2023-04-10 07:23:34,626 - ASUS - MainFIM.py - WARNING - File modified! C:\Users\ASUS\Desktop\Project\Final_FIM\Files\flasktest.txt
+2023-04-10 07:23:40,685 - ASUS - MainFIM.py - WARNING - File modified! C:\Users\ASUS\Desktop\Project\Final_FIM\Files\testfilenew.txt
+2023-04-10 07:25:53,953 - ASUS - MainFIM.py - INFO - New file created! C:\Users\ASUS\Desktop\Project\Final_FIM\Files\New Text Document.txt
+2023-04-10 07:26:01,041 - ASUS - MainFIM.py - INFO - New file created! C:\Users\ASUS\Desktop\Project\Final_FIM\Files\helloUpdate.txt
+2023-04-10 07:26:01,041 - ASUS - MainFIM.py - CRITICAL - File deleted! C:\Users\ASUS\Desktop\Project\Final_FIM\Files\New Text Document.txt
+2023-04-10 07:26:19,284 - ASUS - MainFIM.py - WARNING - File modified! C:\Users\ASUS\Desktop\Project\Final_FIM\Files\flasktest.txt

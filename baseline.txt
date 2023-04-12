@@ -1,0 +1,5 @@
+C:\Users\ASUS\Desktop\Project\Final_FIM\Files\filetestNotValid.txt|1452794f33f1d4621b204dbe618792faaf953ada90d025ea93558147f0b4f4f8
+C:\Users\ASUS\Desktop\Project\Final_FIM\Files\finalTestFile.txt|e46240714b5db3a23eee60479a623efba4d633d27fe4f03c904b9e219a7fbe60
+C:\Users\ASUS\Desktop\Project\Final_FIM\Files\flasktest.txt|a5af7c95ee2f39f42665eceb3048731ea55ae4b564eaa2b3db48dca773dc9576
+C:\Users\ASUS\Desktop\Project\Final_FIM\Files\flaskupdatetest.txt|9834876dcfb05cb167a5c24953eba58c4ac89b1adf57f28f2f9d09af107ee8f0
+C:\Users\ASUS\Desktop\Project\Final_FIM\Files\SlackTestFile.txt|517240a492ff57d3c46fb1c920e596fe0eeb88e808f6e160b249be5dcfa63ecb

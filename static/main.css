@@ -1,0 +1,73 @@
+body{
+    background: linear-gradient(to bottom, #4e7f8c, #58a07c,#ac925c );
+}
+
+h1{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 26px;
+    color: #fff; 
+    text-shadow: 0 0 10px rgba(0,0,0,0.3); 
+    letter-spacing:1px;  
+}
+
+table {
+    width: 80% !important;
+    height: 400px; /* set the fixed height here */
+    margin: auto !important;
+    table-layout: fixed;
+    border-collapse: collapse;
+    justify-content: center;
+
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #ddd;
+  }
+  
+table{
+  margin-left:240px !important;
+  height:400px;
+  width:80% !important;
+  overflow-y: scroll !important;
+  display:block;
+  }
+
+  .info {
+    animation: blink .8s linear infinite;
+    color: rgb(57, 253, 9);
+  }
+  
+  .warning {
+    animation: blink .8s linear infinite;
+    color: rgb(251, 255, 0);
+  }
+  
+  .critical {
+    animation: blink .8s linear infinite;
+    color: red;
+  }
+  
+  @keyframes blink {
+    50% {
+      opacity: 0;
+    }
+  }
+  
+  
+  

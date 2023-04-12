@@ -1,0 +1,4 @@
+2023-04-10 11:26:04,352 - ASUS - MainFIM.py - WARNING - File modified! C:\Users\ASUS\Desktop\Project\Final_FIM\Files\filetestNotValid.txt
+2023-04-10 11:26:09,204 - ASUS - MainFIM.py - INFO - New file created! C:\Users\ASUS\Desktop\Project\Final_FIM\Files\New Text Document.txt
+2023-04-10 11:26:18,796 - ASUS - MainFIM.py - INFO - New file created! C:\Users\ASUS\Desktop\Project\Final_FIM\Files\SlackTestFile.txt
+2023-04-10 11:26:19,236 - ASUS - MainFIM.py - CRITICAL - File deleted! C:\Users\ASUS\Desktop\Project\Final_FIM\Files\New Text Document.txt

@@ -1,0 +1,15 @@
+2023-04-10 06:55:50,970 - ASUS - MainFIM.py - INFO - New file created! C:\Users\ASUS\Desktop\Project\Final_FIM\Files\New shortcut.lnk
+2023-04-10 06:55:51,978 - ASUS - MainFIM.py - CRITICAL - File deleted! C:\Users\ASUS\Desktop\Project\Final_FIM\Files\New shortcut.lnk
+2023-04-10 06:55:55,019 - ASUS - MainFIM.py - INFO - New file created! C:\Users\ASUS\Desktop\Project\Final_FIM\Files\New Text Document.txt
+2023-04-10 06:55:59,068 - ASUS - MainFIM.py - INFO - New file created! C:\Users\ASUS\Desktop\Project\Final_FIM\Files\testfilenew.txt
+2023-04-10 06:55:59,069 - ASUS - MainFIM.py - CRITICAL - File deleted! C:\Users\ASUS\Desktop\Project\Final_FIM\Files\New Text Document.txt
+2023-04-10 06:56:03,107 - ASUS - MainFIM.py - INFO - New file created! C:\Users\ASUS\Desktop\Project\Final_FIM\Files\New Text Document.txt
+2023-04-10 06:56:11,210 - ASUS - MainFIM.py - INFO - New file created! C:\Users\ASUS\Desktop\Project\Final_FIM\Files\flaskupdatetest.txt
+2023-04-10 06:56:11,211 - ASUS - MainFIM.py - CRITICAL - File deleted! C:\Users\ASUS\Desktop\Project\Final_FIM\Files\New Text Document.txt
+2023-04-10 06:56:15,236 - ASUS - MainFIM.py - WARNING - File modified! C:\Users\ASUS\Desktop\Project\Final_FIM\Files\flasktest.txt
+2023-04-10 06:56:20,279 - ASUS - MainFIM.py - WARNING - File modified! C:\Users\ASUS\Desktop\Project\Final_FIM\Files\flaskupdatetest.txt
+2023-04-10 06:56:24,317 - ASUS - MainFIM.py - CRITICAL - File deleted! C:\Users\ASUS\Desktop\Project\Final_FIM\Files\logfile.txt
+2023-04-10 06:56:26,330 - ASUS - MainFIM.py - CRITICAL - File deleted! C:\Users\ASUS\Desktop\Project\Final_FIM\Files\morningtestfile.txt
+2023-04-10 06:57:03,905 - ASUS - MainFIM.py - INFO - New file created! C:\Users\ASUS\Desktop\Project\Final_FIM\Files\New Text Document.txt
+2023-04-10 06:57:17,053 - ASUS - MainFIM.py - INFO - New file created! C:\Users\ASUS\Desktop\Project\Final_FIM\Files\automaticUpdate_check.txt
+2023-04-10 06:57:17,054 - ASUS - MainFIM.py - CRITICAL - File deleted! C:\Users\ASUS\Desktop\Project\Final_FIM\Files\New Text Document.txt
